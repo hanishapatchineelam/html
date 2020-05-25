@@ -1,0 +1,35 @@
+html (hyper text markup language):-
+used to design a web page
+web page:- a page which consists of diff. formats of content
+content:- para, heading, tables, links,... 
+
+element:- an element is a name wich refers to a particular format of content, not all the elements are indepedent, some of them are dependent
+    types of elements:-
+    1. block
+    <elementname>
+        ..
+        ..
+    </elementname>
+    ex., <p>..</p>, <div>...</div>, <h1>...</h1>
+
+    2. inline
+    <elementname />
+    ex., <img />, <meta />, 
+
+attribute:- an attribute is a name which specifies additional features to an elementname, all the attributes that should be used in elements
+    types of elements:-
+    1. block
+    <elementname attributename = "itsvalue" attributename = "itsvalue" attributename = "itsvalue" >
+        ..
+        ..
+    </elementname>
+    ex., <p style = "">..</p>, <div title = "">...</div>, <h1>...</h1>
+
+    2. inline
+    <elementname attributename = "itsvalue" attributename = "itsvalue" attributename = "itsvalue" />
+    ex., <img src = "" />, <meta name = "" />,
+
+Forms:-
+input [ text, email, number, password, url, radio, checkbox, file, date, color, submit, reset ]
+select
+textarea 
